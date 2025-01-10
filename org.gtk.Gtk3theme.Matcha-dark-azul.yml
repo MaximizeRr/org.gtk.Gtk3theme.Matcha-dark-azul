@@ -21,6 +21,6 @@ modules:
       - type: archive
         url: "https://github.com/vinceliuice/Matcha-gtk-theme/archive/2024-05-01.tar.gz"
         sha256: 945856e788cc04fc704c9ab7adb75a936a21a51d38c51c25629097da6af4021b
-  - name: appdata.xml
+  - name: ${FLATPAK_ID}.appdata.xml
     type: file
-    path: org.gtk.Gtk3theme.Matcha-dark-azul.appdata.xml
+    path: ${FLATPAK_ID}.appdata.xml
